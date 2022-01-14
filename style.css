@@ -2,11 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif; 
+    color: #3A3A3A;
+    font-weight: bold;
 }
 /* header style */
 .header-area{
-    font-weight: bold;
+    
     font-size: 24px;
     padding-left: 80px;
     margin-top: 50px;
+}
+/* ----------------
+start journy style 
+----------------------*/
+.start-journy{
+    display: flex;
+   
+}
+.first-info{
+    margin-left: 75px;
+}
+.first-info h1{
+   font-size: 45px;
+
+}
+.first-info p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.span-tag{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: coral;
+    display: inline;
+    padding: 4px 15px;
+    border-radius: 40px;
+    color: white;
+}
+.picture img{
+    width: 57%;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-bottom: 150px;
 }
