@@ -133,3 +133,31 @@ popular collection style
     font-size: 13px;
     
 }
+/* joel mathew style */
+.total-area{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#blue{
+    color: steelblue;
+}
+.last-img img{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+.last-img h1{
+    color: tomato;
+}
+.last-img p{
+    margin-right: 95px;
+    font-size: 14px;
+}
+.icon-area i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.icon-area a{
+    text-decoration: none;
+    color: royalblue;
+}
