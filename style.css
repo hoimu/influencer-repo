@@ -21,7 +21,11 @@ start journy style
 }
 .first-info{
     margin-left: 75px;
+    width: 50%;
 }
+
+
+   
 .first-info h1{
    font-size: 45px;
 
@@ -30,18 +34,91 @@ start journy style
     font-size: 15px;
     font-weight: 600;
 }
+
 .span-tag{
-    font-size: 15px;
-    font-weight: 500;
+    
     background-color: coral;
     display: inline;
     padding: 4px 15px;
     border-radius: 40px;
+    
+}
+.span-tag:hover{
+    background-color: rgb(247, 81, 52);
+}
+.span-tag a{
+    text-decoration: none;
     color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.picture{
+    width: 70%;
 }
 .picture img{
-    width: 57%;
+    width: 50%;
     border-radius: 50%;
-    margin-left: 150px;
-    margin-bottom: 150px;
+    margin-left: 250px;
+    margin-bottom: 180px;
+}
+/* --------------------
+popular collection style
+----------------------- */
+.center-tag{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+}
+.cam-picturs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin-left: 80px;
+   
+}
+.cam-picture{
+    background-color: white;
+    padding: 20px 0;
+    padding-left: 25px;
+}
+.cam-picture h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.cam-picture .price{
+    font-weight: normal;
+    font-size: 30px;
+}
+.rating{
+    font-size: 12px;
+}
+.rating i{
+    color: orange;
+
+}
+#gray{
+    color: gray;
+    margin-left: 17px;
+
+}
+.cam-picture p{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pic-info{
+    margin: 25px;
+    box-shadow: 2px 10px 50px #aaaa;
+}
+.arrow{
+    text-align:right;
+    margin-right: 80px;
+}
+.arrow a{
+    text-decoration: none;
+    color: rgb(247, 81, 52);
+    font-size: 13px;
+    
 }
