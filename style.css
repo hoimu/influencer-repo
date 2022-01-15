@@ -21,7 +21,10 @@ start journy style
 }
 .first-info{
     margin-left: 75px;
-    width: 50%;
+    width: 100%;
+    margin-right: 200px;
+    
+    
 }
 
 
@@ -53,13 +56,21 @@ start journy style
     font-weight: 500;
 }
 .picture{
-    width: 70%;
+    width: 100%;
+    margin-left: 180px;  
+  overflow: hidden;
+  padding-right: 40px;
+}
+
+.picture:hover img{
+   
+      transform: scale(1.6);
+      transition: transform 1s;
 }
 .picture img{
-    width: 50%;
-    border-radius: 50%;
-    margin-left: 250px;
-    margin-bottom: 180px;
+    width: 84%;
+   border-radius: 10px;
+    
 }
 /* --------------------
 popular collection style
