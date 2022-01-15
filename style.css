@@ -8,7 +8,7 @@ body{
 /* header style */
 .header-area{
     
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 80px;
     margin-top: 50px;
 }
@@ -194,3 +194,43 @@ popular collection style
 .footer-icon i{
     margin: 10px;
 }
+/* ------------------
+   Media Queries 
+   -----------------*/
+
+   /* Mobile Devices */
+   @media only screen and (max-width:688px) {
+      
+       .header-area h3{
+           text-align: start;
+          
+          
+       }
+       .popular-section{
+           width: 100%;
+       }
+       
+       .cam-picturs{
+           
+           grid-template-columns: repeat(1, 1fr);
+           margin-left: 0;
+
+       }
+      .cam-picture, .start-journy{
+          flex-direction: column;
+      }
+      .first-info{
+          width: 50%;
+      }
+      .picture{
+          width: 50%;
+          margin-left: 80px;
+          margin-top: 20px;
+      }
+      .total-area{
+          margin-left: 30px;
+      }
+      .last-img img{
+          margin-left: 0;
+      }
+   }
