@@ -138,6 +138,8 @@ popular collection style
     margin-top: 50px;
     margin-left: 100px;
 }
+
+
 #blue{
     color: steelblue;
 }
@@ -153,11 +155,42 @@ popular collection style
     margin-right: 95px;
     font-size: 14px;
 }
+.icon-area{
+    text-align: center;
+}
 .icon-area i{
     font-size: 30px;
     margin-left: 20px;
 }
 .icon-area a{
     text-decoration: none;
-    color: royalblue;
+    color: grey;
+}
+/* footer style */
+ 
+.footer-section{
+    background-color: rgb(27, 20, 41);
+    padding-bottom: 30px;
+}
+.footer-section h2{
+    color: white;
+    margin-bottom: 1px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.footer-section p{
+    color: white;
+    font-weight:100;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0;
+}
+.footer-icon{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-icon i{
+    margin: 10px;
 }
